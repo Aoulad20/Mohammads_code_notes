@@ -10,5 +10,12 @@ git clone <repo url>
 To add and commit files to a Git repository:-
 
 git add --all
-
 git commit -m "updated with the  folders of notes"
+git push
+
+Adding a brunch:-
+
+git brunch (to check where we are)
+git checkout -b some-feature (this will create a brunch)
+# Edit some code
+git commit -a -m "Add first draft of some feature"
